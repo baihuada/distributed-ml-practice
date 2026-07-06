@@ -61,8 +61,6 @@ project3_ibing_reproduction/  # IBing AllReduce 通信优化论文复现
 docs/                         # 阶段性学习总结与说明文档
 ```
 
-如果本地目录名称仍为中文，例如 `DML-Bench`、`PS-VS-AllReduce`、`IBing论文复现`，也可以正常使用；但为了 GitHub 展示和后续维护，建议统一为英文目录名。
-
 ---
 
 ## 3. Background
