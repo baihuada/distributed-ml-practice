@@ -1,0 +1,56 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+FedEnv/
+env/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Data files
+data/
+**/data/
+**/MNIST/
+**/MNIST/raw/
+**/MNIST/processed/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+
+# Large temporary files
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Temporary result cache
+tmp/
+temp/
+
+# Keep result figures and tables, but ignore raw repeated intermediate caches if needed
+# 如果你想保留 raw csv 结果，可以注释掉下面这一行
+# **/results/raw/

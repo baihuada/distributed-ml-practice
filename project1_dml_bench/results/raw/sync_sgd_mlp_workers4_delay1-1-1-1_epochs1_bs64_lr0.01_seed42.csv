@@ -1,0 +1,2 @@
+﻿algorithm,model,epoch,num_workers,batch_size_per_worker,effective_batch_size,steps_per_epoch,train_loss,train_acc,test_loss,test_acc,epoch_time,elapsed_time,comm_round,comm_bytes,comm_mb,server_version,worker_delays,max_worker_delay,epoch_virtual_time,virtual_time
+sync_sgd,mlp,1,4,64,256,235,1.0712264010429382,75.20833333333333,0.546959912776947,86.75,20.9150333404541,20.9150333404541,235,765310400,729.8568725585938,235,1-1-1-1,1.0,235.0,235.0

@@ -1,0 +1,2 @@
+﻿algorithm,model,epoch,train_loss,train_acc,test_loss,test_acc,epoch_time,elapsed_time,virtual_time,epoch_virtual_time,comm_round,async_updates,comm_bytes,comm_mb,epoch_comm_bytes,epoch_comm_mb,avg_staleness,max_staleness,min_staleness,num_workers,batch_size,lr,worker_delays,server_version
+async_sgd,mlp,1,0.5843126353363196,84.82333333333332,0.3265737651586533,90.72,20.485211849212646,20.485211849212646,235.0,235.0,940,940,765310400,729.8568725585938,765310400,729.8568725585938,2.9936170212765956,3,0,4,64,0.01,1-1-1-1,940

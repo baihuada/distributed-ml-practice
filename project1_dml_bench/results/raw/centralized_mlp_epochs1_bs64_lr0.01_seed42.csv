@@ -1,0 +1,2 @@
+﻿algorithm,model,epoch,train_loss,train_acc,test_loss,test_acc,epoch_time,elapsed_time,comm_round,comm_bytes,virtual_time
+centralized_sgd,mlp,1,0.5756990261554717,85.42,0.32205271537303926,91.09,21.34060263633728,21.34060263633728,0,0,21.34060263633728

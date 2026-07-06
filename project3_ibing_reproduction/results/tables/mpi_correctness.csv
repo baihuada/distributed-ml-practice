@@ -1,0 +1,17 @@
+algo,world_size,chunk_size,dtype,value_scale,return_code,passed,elapsed_seconds,command
+ibing,3,4,float32,10,0,True,0.323011,mpiexec -n 3 D:\anaconda\envs\FedEnv\python.exe D:\Users\zhxst\Desktop\分布式机器学习\IBing论文复现\src\mpi\ibing_mpi.py --chunk_size 4 --dtype float32 --value_scale 10 --check
+ibing,3,1024,float32,10,0,True,0.32800419999999997,mpiexec -n 3 D:\anaconda\envs\FedEnv\python.exe D:\Users\zhxst\Desktop\分布式机器学习\IBing论文复现\src\mpi\ibing_mpi.py --chunk_size 1024 --dtype float32 --value_scale 10 --check
+ibing,4,4,float32,10,0,True,0.38450850000000003,mpiexec -n 4 D:\anaconda\envs\FedEnv\python.exe D:\Users\zhxst\Desktop\分布式机器学习\IBing论文复现\src\mpi\ibing_mpi.py --chunk_size 4 --dtype float32 --value_scale 10 --check
+ibing,4,1024,float32,10,0,True,0.3604596999999998,mpiexec -n 4 D:\anaconda\envs\FedEnv\python.exe D:\Users\zhxst\Desktop\分布式机器学习\IBing论文复现\src\mpi\ibing_mpi.py --chunk_size 1024 --dtype float32 --value_scale 10 --check
+ibing,5,4,float32,10,0,True,0.3935145,mpiexec -n 5 D:\anaconda\envs\FedEnv\python.exe D:\Users\zhxst\Desktop\分布式机器学习\IBing论文复现\src\mpi\ibing_mpi.py --chunk_size 4 --dtype float32 --value_scale 10 --check
+ibing,5,1024,float32,10,0,True,0.3921589999999999,mpiexec -n 5 D:\anaconda\envs\FedEnv\python.exe D:\Users\zhxst\Desktop\分布式机器学习\IBing论文复现\src\mpi\ibing_mpi.py --chunk_size 1024 --dtype float32 --value_scale 10 --check
+ibing,8,4,float32,10,0,True,0.5717023000000001,mpiexec -n 8 D:\anaconda\envs\FedEnv\python.exe D:\Users\zhxst\Desktop\分布式机器学习\IBing论文复现\src\mpi\ibing_mpi.py --chunk_size 4 --dtype float32 --value_scale 10 --check
+ibing,8,1024,float32,10,0,True,0.5884544000000003,mpiexec -n 8 D:\anaconda\envs\FedEnv\python.exe D:\Users\zhxst\Desktop\分布式机器学习\IBing论文复现\src\mpi\ibing_mpi.py --chunk_size 1024 --dtype float32 --value_scale 10 --check
+ring,3,4,float32,10,0,True,0.3593571,mpiexec -n 3 D:\anaconda\envs\FedEnv\python.exe D:\Users\zhxst\Desktop\分布式机器学习\IBing论文复现\src\mpi\ring_mpi.py --chunk_size 4 --dtype float32 --value_scale 10 --check
+ring,3,1024,float32,10,0,True,0.3423740000000004,mpiexec -n 3 D:\anaconda\envs\FedEnv\python.exe D:\Users\zhxst\Desktop\分布式机器学习\IBing论文复现\src\mpi\ring_mpi.py --chunk_size 1024 --dtype float32 --value_scale 10 --check
+ring,4,4,float32,10,0,True,0.35468720000000076,mpiexec -n 4 D:\anaconda\envs\FedEnv\python.exe D:\Users\zhxst\Desktop\分布式机器学习\IBing论文复现\src\mpi\ring_mpi.py --chunk_size 4 --dtype float32 --value_scale 10 --check
+ring,4,1024,float32,10,0,True,0.3638367999999996,mpiexec -n 4 D:\anaconda\envs\FedEnv\python.exe D:\Users\zhxst\Desktop\分布式机器学习\IBing论文复现\src\mpi\ring_mpi.py --chunk_size 1024 --dtype float32 --value_scale 10 --check
+ring,5,4,float32,10,0,True,0.38235750000000035,mpiexec -n 5 D:\anaconda\envs\FedEnv\python.exe D:\Users\zhxst\Desktop\分布式机器学习\IBing论文复现\src\mpi\ring_mpi.py --chunk_size 4 --dtype float32 --value_scale 10 --check
+ring,5,1024,float32,10,0,True,0.3970564000000003,mpiexec -n 5 D:\anaconda\envs\FedEnv\python.exe D:\Users\zhxst\Desktop\分布式机器学习\IBing论文复现\src\mpi\ring_mpi.py --chunk_size 1024 --dtype float32 --value_scale 10 --check
+ring,8,4,float32,10,0,True,0.5547136000000004,mpiexec -n 8 D:\anaconda\envs\FedEnv\python.exe D:\Users\zhxst\Desktop\分布式机器学习\IBing论文复现\src\mpi\ring_mpi.py --chunk_size 4 --dtype float32 --value_scale 10 --check
+ring,8,1024,float32,10,0,True,0.5483104999999995,mpiexec -n 8 D:\anaconda\envs\FedEnv\python.exe D:\Users\zhxst\Desktop\分布式机器学习\IBing论文复现\src\mpi\ring_mpi.py --chunk_size 1024 --dtype float32 --value_scale 10 --check

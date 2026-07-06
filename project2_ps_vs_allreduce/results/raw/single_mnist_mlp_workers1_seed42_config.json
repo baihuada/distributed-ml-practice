@@ -1,0 +1,20 @@
+{
+  "dataset": "mnist",
+  "model": "mlp",
+  "epochs": 10,
+  "batch_size": 64,
+  "test_batch_size": 1000,
+  "lr": 0.01,
+  "momentum": 0.0,
+  "weight_decay": 0.0,
+  "hidden_dim": 256,
+  "dropout": 0.0,
+  "seed": 42,
+  "data_dir": "./data",
+  "output_dir": "./results/raw",
+  "num_workers": 0,
+  "device": "cpu",
+  "deterministic": false,
+  "no_progress": false,
+  "print_data_info": false
+}

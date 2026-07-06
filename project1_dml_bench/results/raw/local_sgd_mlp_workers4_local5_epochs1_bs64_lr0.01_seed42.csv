@@ -1,0 +1,2 @@
+﻿algorithm,model,epoch,num_workers,batch_size_per_worker,local_steps,processed_samples_per_comm_round,batches_per_worker,rounds_per_epoch,train_loss,train_acc,test_loss,test_acc,epoch_time,elapsed_time,comm_round,comm_bytes,comm_mb,server_version,virtual_time
+local_sgd,mlp,1,4,64,5,1280,235,47,1.0722993163545926,75.08166666666666,0.5472235149860382,86.72,21.059276819229126,21.059276819229126,47,153062080,145.97137451171875,47,21.059276819229126
