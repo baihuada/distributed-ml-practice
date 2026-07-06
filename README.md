@@ -628,10 +628,3 @@ python scripts/plot_results.py --formats png pdf
 
 [1] Ruixing Zong, Jiapeng Zhang, Zhuo Tang, and Kenli Li. *IBing: An Efficient Interleaved Bidirectional Ring All-Reduce Algorithm for Gradient Synchronization*. ACM Transactions on Architecture and Code Optimization, 2025.
 
-[2] Message Passing Interface Forum. *MPI: A Message-Passing Interface Standard*.
-
-[3] mpi4py documentation. *MPI for Python*.
-
-[4] PyTorch documentation. *Distributed Data Parallel*.
-
-[5] NumPy documentation. *NumPy array programming library*.
